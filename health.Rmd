@@ -141,7 +141,7 @@ plot_likert(eh1,
             show.prc.sign = TRUE, reverse.scale = TRUE) + theme_bw() + theme(legend.position = "top")
 ```
 
-## How many servings of fruits and vegetables do you usually consume per day? 
+**How many servings of fruits and vegetables do you usually consume per day?** 
 
 ```{r}
 plot_frq(bns$EH2) + xlab("Servings of Fruit and Vegetables")
@@ -218,7 +218,9 @@ plot_frq(bns$EH7) + xlab("# of Time Eating Fast Food")
 
 20.5% (n = 30) of respondents reported that they do not eat fast food, from convenience stores, or vending machines in a week and 47.3% (n = 69) reported that they eat fast food between 1 to 2 times a week.
 
-## The following questions pertain to how comfortable you feel about buying or preparing food
+## Buying or Preparing Food
+
+**The following questions pertain to how comfortable you feel about buying or preparing food**
 
 ```{r, fig.width=8}
 eh9 <- bns %>% select(starts_with("EH9_"))
