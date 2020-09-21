@@ -11,7 +11,7 @@ output:
 source("common_code.R")
 ```
 
-## Rent
+# Rent
 
 **Please estimate the monthly housing/rent/mortgage bill (garbage may or may not be included) that you pay for with your own money.**
 
@@ -29,7 +29,7 @@ plot_frq(bns$ME1a, y.offset = 0.1) + xlab("Monthly Housing Bill") + ylim(c(0,5))
 
 Out of the respondents who said they have others pay for their monthly rent/housing, 44.4% (n = 4) reported that they pay \$500-\$1000 and 33.3% (n = 3) pay \$1000-\$1500.
 
-## Utilities
+# Utilities
 
 **Please estimate the monthly utility (i.e. gas, electric, water, and garbage) bills that you pay for with your own money.**
 
@@ -47,7 +47,7 @@ plot_frq(bns$ME2a, y.offset = .3) + xlab("Monthly Utility Bill") + ylim(c(0,8))
 
 Out of people who have someone else pay for their monthly utility bill, 50% (n = 6) reported that they pay \$100+ a month and 33.3% (n = 4) reported they pay \$50-\$99 a month, and 16.7% (n = 2) reported they pay less than \$50 a month.
 
-## Other (internet, TV, cell phone, medical, transportation)
+# Other (internet, TV, cell phone, medical, transportation)
 
 **Please estimate your monthly internet, cable tv/satellite, and streaming service bills that you pay for with your own money.**
 
@@ -123,7 +123,7 @@ plot_frq(bns$ME7, vjust = "center", y.offset = 3) + xlab("Monthly Transportation
 
 33.1% (n = 47) of respondents reported that they pay less than \$25 a month on transportation, 22.5% (n = 32) reported that they pay \$100-\$199 a month on transportation, and 9.2% (n = 13) reported that they pay \$0.
 
-## Monthly & School Supplies Expenses
+# Monthly & School Supplies Expenses
 
 **Please estimate your monthly expenses for any other regularly occurring expenses such as credit card payments, gym membership, child care expenses, etc. that you pay for with your own money.**
 
@@ -142,7 +142,7 @@ plot_frq(bns$ME9, vjust = "center", y.offset = 2) + coord_flip() + xlab("Semeste
 
 20.8% (n = 30) of respondents reported that they pay \$151-\$250 a semester on expenses such as school supplies, textbooks, and school related printing expenses, 18.1% (n = 26) reported that they pay \$251-\$350 a semester, and 15.3% (n = 22) reported that they pay \$451-\$550 a semester.
 
-## Food, Alcohol, Cigarettes, etc. Expenses
+# Food, Alcohol, Cigarettes, etc. Expenses
 
 **Please estimate the weekly expenses for food and non-alcoholic beverages that you pay for with your own money.**
 
@@ -174,3 +174,12 @@ plot_frq(bns$ME12) + xlab("Weekly Expenses for Cigarettes/Marijuana")
 ```
 
 Most respondents, or 84.5% (n = 120), reported that they pay \$0 a week on cigarettes and tobacco, 5.6% (n = 8) reported they pay less than \$10 a week, and 6.3% (n = 9) reported they pay \$10-\$49 a week.
+
+
+# [Financial Support & Income](financial_support.html)
+
+*Click here to go to the Financial Support & Income page*
+
+# [Barriers to Employment](barriers_employ.html)
+
+*Click here to go to the Barriers to Employment page*

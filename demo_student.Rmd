@@ -188,7 +188,9 @@ Only 1 (0.7%) person reported that they are a single parent of a dependent house
 
 
 
+# [Personal Demographics](demo_personal.html)
 
+*Click here to go to the Personal Demographics page*
 
 
 
