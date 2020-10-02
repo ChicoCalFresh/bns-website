@@ -31,7 +31,7 @@ plot_frq(bns$PA1_2) + xlab("# of Days/Week") + ylim(c(0,70))
 
 36.5% (n = 54) of respondents reported that they did not do vigorous-intensity cardio for at least 20 minutes per day in the past 7 days, 18.2% (n = 27) reported they did for 1 day, and 20.9% (n = 31) reported they did for 2 days.
 
-**Do vigorous-intensity cardio or aerobic exercise (caused large increases in breathing or heart rate, such as jogging) for at least 20 minutes?**
+**Do 8-10 strength training exercises (such as resistance weight machines) for at least 8 repetitions each?**
 
 ```{r}
 plot_frq(bns$PA1_3) + xlab("# of Days") + ylim(c(0,90))
