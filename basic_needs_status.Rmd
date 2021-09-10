@@ -46,7 +46,7 @@ Over half of respondents, or 52.1%, said it is sometimes true that in the last 1
 plot_frq(bns$AD1) + xlab("Cut Size/Skip Meals Because No Money")
 ```
 
-Over half of respondents, or 58%, reported that they, or the other adults in their household, cut the size of their meals, or skipped meals, because there was not enough money for food. 
+Over half of respondents, or 54%, reported that they, or the other adults in their household, cut the size of their meals, or skipped meals, because there was not enough money for food. 
 
 * *How often did this happen—almost every month, some months but not every month, or in only 1 or 2 months?*
 
@@ -78,7 +78,7 @@ Of those that responded yes that they ate less because there was not enough mone
 plot_frq(bns$AD3) + xlab("Hungry Because Not Eating Due to Money")
 ```
 
-Over half of respondents, or 54.5%, reported that there were times they were hungry but did not eat because there wasn't enough money for food. 
+Over half of respondents, or 52.7%, reported that there were times they were hungry but did not eat because there wasn't enough money for food. 
 
 * *How often did this happen—almost every month, some months but not every month, or in only 1 or 2 months?*
 
@@ -93,7 +93,7 @@ Of those that responded yes they were hungry but did not eat because lack of mon
 ```{r}
 plot_frq(bns$AD4) + xlab("Lose Weight Because No Money for Food")
 ```
-Most respondents (67.4%) reported they did not lose weight because there wasn't enough money for food. 
+Most respondents (61.5%) reported they did not lose weight because there wasn't enough money for food. 
  
 * **In the last 12 months, did (you/you or other adults in your household) ever not eat for a whole day because there wasn’t enough money for food?** 
 
@@ -101,7 +101,7 @@ Most respondents (67.4%) reported they did not lose weight because there wasn't 
 plot_frq(bns$AD5) + xlab("Adults did not Eat Because No Money")
 ```
 
-Most respondents (74.8%) reported that none of the adults in their household ever went a whole day without eating because there wasn't enough money for food. 
+Most respondents (68.2%) reported that none of the adults in their household ever went a whole day without eating because there wasn't enough money for food. 
 
 * *How often did this happen—almost every month, some months but not every month, or in only 1 or 2 months?*
 
@@ -109,7 +109,7 @@ Most respondents (74.8%) reported that none of the adults in their household eve
 plot_frq(bns$AD5a) + xlab("Adults did not Eat Because No Money") + ylim(c(0,20))
 ```
 
-Out of the 34 respondents that answered yes, either they or their adult household member went a whole day without eating because there wasn't enough money for food, over half (51.6%) reported this happened some months but not every month. 22.6% reported this happened every month.  
+Out of the 34 respondents that answered yes, either they or their adult household member went a whole day without eating because there wasn't enough money for food, about half (47.1%) reported this happened some months but not every month. 20.6% reported this happened every month.  
 
 ## Food Insecure
 
@@ -124,7 +124,7 @@ bns$food_insecurity <- factor(bns$food_insecurity, labels = c("No", "Yes"))
 plot_frq(bns$food_insecurity) + xlab("Food Insecure")
 ```
 
-The majority of respondents, or 65.3%, reported that yes, they were food insecure in the last 12 months. 34.7% reported that no, they were not food insecure. 
+The majority of respondents, or 78.0%, reported that yes, they were food insecure in the last 12 months. 22.0% reported that no, they were not food insecure. 
 
 # Mental Health
 

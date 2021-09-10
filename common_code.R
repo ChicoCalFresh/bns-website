@@ -23,5 +23,5 @@ display.text <- function(data, var){
 }
 
 # Load data
-load("../data/bns_clean.Rdata")
+load("data/bns_clean.Rdata")
 bns <- out
