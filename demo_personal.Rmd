@@ -105,7 +105,7 @@ names(a) <- "N"
 a$lab <- paste0(a$N, " (", round(a$N/NROW(bns)*100,0), ")%")
 a$type <- stringr::str_replace(rownames(a), "age_dep_", "")
 a$type <- factor(a$type)
-a$type <- a$type %>% fct_relevel(levels = c("lt5", "6_12", "13_18", "19_60", "over61"))
+# a$type <- a$type %>% fct_relevel(levels = c("lt5", "6_12", "13_18", "19_60", "over61"))
 a$type <- factor(a$type, labels = c("0-5", "6-12", "13-18", "19-60", "61+"))
 ggplot(a, aes(x=type, y=N)) + geom_col(fill="#336699") +  
         geom_text(aes(label=lab, y=N+.5)) + xlab("Age of Dependents") +
